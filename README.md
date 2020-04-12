@@ -1,13 +1,14 @@
 # modelingeditorialslants
-# LDA TOPIC MODELING
+## LDA Modeling of Topics Discussed in New Articles
 
 
-## This notebook applies LDA modeling to a an dataset of 480 news articles shared to Reddit and Twitter, along with their corresponding comment threads
+## This notebook applies LDA modeling to a an dataset of 480 news articles shared to Reddit and Twitter
 
-## The utility of topic modeling methods is their capability to uncover unobserved variables—topics—which shape the meaning of textual documents. 
+## Topic Modeling is a text analysis method that uses machine learning algorithms to classify the content of a large body of texts—called a corpus—into meaningful topics. 
 
-### In the following case, we are interested in understanding what characteristics of news articles elicit user engagement on social media
-using the GENSIM, NLTK, spaCy, and SKLearn libraries:
+## The specific technique used here, Latent Dirichlet Allocation (LDA), identifies underlying patterns of co-occurring words within individual texts to extrapolate latent categories across a corpus of texts (i.e., topics).
+
+### In the following case, we are interested in understanding what characteristics of news articles elicit user engagement on social media relying heavily on the GENSIM, NLTK, spaCy, and SKLearn libraries:
 
 https://radimrehurek.com/gensim/
 
@@ -23,6 +24,7 @@ https://spacy.io
 
 ## 1. Preparing the text for preprocessing
     1a. Spell check
+    
     1b. Expand contractions
 
 ## 2. Text preprocessing
