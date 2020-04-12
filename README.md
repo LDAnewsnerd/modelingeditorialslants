@@ -62,3 +62,6 @@ https://medium.com/@lettier/how-does-lda-work-ill-explain-using-emoji-108abf40fa
 
      
 https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158
+
+
+https://www.jetbrains.com/education/
